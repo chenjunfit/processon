@@ -1,0 +1,24 @@
+
+# CLI tool, only in development environment.
+# https://goframe.org/pages/viewpage.action?pageId=3673173
+gfcli:
+  docker:
+    build: "-a amd64 -s linux -p temp -ew"
+    tagPrefixes:
+      - my.image.pub/my-app
+  gen:
+    dao:
+      - link: "mysql:root:Yx@123@tcp(121.199.44.128:3306)/job-exec?loc=Local&parseTime=true"
+        tables:          "task_meta,task_result"
+        removePrefix:    "gf_"
+        descriptionTag:  true
+        noModelComment:  true
+    pbentity:
+      - link: "mysql:root:Yx@123@tcp(121.199.44.128:3306)/job-exec?loc=Local&parseTime=true"
+        path: "manifest/protobuf/taskreport/v1"
+        tables: "task_meta,task_result"
+        package: "api/taskreport/protobuf/v1"
+#        option: |
+#          option go_package = "api/taskreport/protobuf/v1";
+
+

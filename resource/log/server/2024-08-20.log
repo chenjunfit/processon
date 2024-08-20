@@ -1,0 +1,21 @@
+2024-08-20 15:20:14.503 [FATA] SetServerRoot failed: cannot find "resoure/" in following paths:
+1. /Users/chenjun/Desktop/processon
+2. /var/folders/rf/cgjqwcqj0ys0kf1g_pb5z78c0000gn/T/go-build3679508525/b001/exe
+1. cannot find "resoure/" in following paths:
+1. /Users/chenjun/Desktop/processon
+2. /var/folders/rf/cgjqwcqj0ys0kf1g_pb5z78c0000gn/T/go-build3679508525/b001/exe
+   1).  processon/internal/cmd.init.func1
+        /Users/chenjun/Desktop/processon/internal/cmd/cmd.go:20
+   2).  main.main.func3
+        /Users/chenjun/Desktop/processon/main.go:60
+   3).  github.com/oklog/run.(*Group).Run.func1
+        /Users/chenjun/go/pkg/mod/github.com/oklog/run@v1.1.0/group.go:38
+ 
+Stack:
+1.  processon/internal/cmd.init.func1
+    /Users/chenjun/Desktop/processon/internal/cmd/cmd.go:20
+2.  main.main.func3
+    /Users/chenjun/Desktop/processon/main.go:60
+3.  github.com/oklog/run.(*Group).Run.func1
+    /Users/chenjun/go/pkg/mod/github.com/oklog/run@v1.1.0/group.go:38
+

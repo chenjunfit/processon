@@ -1,0 +1,3 @@
+2024-08-20 15:20:36.811 [DEBU] {d8ee5efbc55eed179a61e933cda5b39d} [ 40 ms] [default] [processon] [rows:3  ] SHOW TABLES
+2024-08-20 15:20:36.821 [DEBU] {d0c0c9fdc55eed179b61e933cc4f407b} [  9 ms] [default] [processon] [rows:18 ] SHOW FULL COLUMNS FROM `check_job`
+2024-08-20 15:20:36.838 [DEBU] {c8f659fec55eed179c61e933b116e17c} [ 17 ms] [default] [processon] [rows:0  ] SELECT `id`,`check_job_name`,`script_name`,`baseline_name`,`script_id`,`cluster_name`,`baseline_id`,`service_tree_path`,`ip_json`,`job_has_synced`,`job_has_completed`,`all_num`,`success_num`,`fail_num`,`creator` FROM `check_job` WHERE (`job_has_synced`=0) AND `delete_at` IS NULL

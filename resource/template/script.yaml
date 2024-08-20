@@ -1,0 +1,4 @@
+-name: copy_file_and_reload
+ hosts: all
+ user: root
+ 
