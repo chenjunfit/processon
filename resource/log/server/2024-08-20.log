@@ -19,3 +19,58 @@ Stack:
 3.  github.com/oklog/run.(*Group).Run.func1
     /Users/chenjun/go/pkg/mod/github.com/oklog/run@v1.1.0/group.go:38
 
+2024-08-20 15:20:36.771 [DEBU] SetServerRoot path: /Users/chenjun/Desktop/processon/resource
+2024-08-20 15:20:36.778 [INFO] pid[71011]: http server started listening on [:8002]
+2024-08-20 15:20:36.778 [INFO] {704331fbc55eed179861e9335699c50a} swagger ui is serving at address: http://127.0.0.1:8002/swagger/
+2024-08-20 15:20:36.778 [INFO] {704331fbc55eed179861e9335699c50a} openapi specification is serving at address: http://127.0.0.1:8002/api.json
+2024-08-20 15:23:14.581 [INFO] pid[71011]: all servers shutdown
+2024-08-20 15:23:18.605 [DEBU] SetServerRoot path: /Users/chenjun/Desktop/processon/resource/agent
+2024-08-20 15:23:18.611 [INFO] pid[71552]: http server started listening on [:8002]
+2024-08-20 15:23:18.611 [INFO] {40033ca9eb5eed175a7915013fcbcfe2} swagger ui is serving at address: http://127.0.0.1:8002/swagger/
+2024-08-20 15:23:18.611 [INFO] {40033ca9eb5eed175a7915013fcbcfe2} openapi specification is serving at address: http://127.0.0.1:8002/api.json
+2024-08-20 15:24:52.294 [INFO] pid[71552]: all servers shutdown
+2024-08-20 15:25:51.468 [DEBU] SetServerRoot path: /Users/chenjun/Desktop/processon/resource/agent
+2024-08-20 15:25:51.474 [INFO] pid[72079]: http server started listening on [:8002]
+2024-08-20 15:25:51.474 [INFO] {d86874400f5fed175c8dfe251c4c1ad3} swagger ui is serving at address: http://127.0.0.1:8002/swagger/
+2024-08-20 15:25:51.474 [INFO] {d86874400f5fed175c8dfe251c4c1ad3} openapi specification is serving at address: http://127.0.0.1:8002/api.json
+2024-08-20 15:41:52.554 [INFO] pid[72079]: all servers shutdown
+2024-08-20 15:42:00.402 [DEBU] SetServerRoot path: /Users/chenjun/Desktop/processon/resource/agent
+2024-08-20 15:42:00.408 [INFO] pid[75620]: http server started listening on [:8002]
+2024-08-20 15:42:00.408 [INFO] {50966cd9f05fed17c88bf94c19ab1bd3} swagger ui is serving at address: http://127.0.0.1:8002/swagger/
+2024-08-20 15:42:00.409 [INFO] {50966cd9f05fed17c88bf94c19ab1bd3} openapi specification is serving at address: http://127.0.0.1:8002/api.json
+2024-08-20 15:42:10.459 [INFO] pid[75620]: all servers shutdown
+2024-08-20 15:44:45.307 [DEBU] SetServerRoot path: /Users/chenjun/Desktop/processon/resource/agent
+2024-08-20 15:44:45.314 [INFO] pid[76126]: http server started listening on [:8002]
+2024-08-20 15:44:45.314 [INFO] {28609e3e1760ed1767f3cd6cbf4ffd9e} swagger ui is serving at address: http://127.0.0.1:8002/swagger/
+2024-08-20 15:44:45.314 [INFO] {28609e3e1760ed1767f3cd6cbf4ffd9e} openapi specification is serving at address: http://127.0.0.1:8002/api.json
+2024-08-20 15:45:09.619 [INFO] pid[76126]: all servers shutdown
+2024-08-20 15:45:41.265 [DEBU] SetServerRoot path: /Users/chenjun/Desktop/processon/resource/agent
+2024-08-20 15:45:41.271 [INFO] pid[76323]: http server started listening on [:8002]
+2024-08-20 15:45:41.271 [INFO] {3013ed452460ed172a1be947b2c1c8da} swagger ui is serving at address: http://127.0.0.1:8002/swagger/
+2024-08-20 15:45:41.272 [INFO] {3013ed452460ed172a1be947b2c1c8da} openapi specification is serving at address: http://127.0.0.1:8002/api.json
+2024-08-20 15:45:43.491 [INFO] pid[76323]: all servers shutdown
+2024-08-20 15:47:14.861 [DEBU] SetServerRoot path: /Users/chenjun/Desktop/processon/resource/agent
+2024-08-20 15:47:14.868 [INFO] pid[76643]: http server started listening on [:8002]
+2024-08-20 15:47:14.868 [INFO] {6009b4103a60ed17821df96c33688d9c} swagger ui is serving at address: http://127.0.0.1:8002/swagger/
+2024-08-20 15:47:14.869 [INFO] {6009b4103a60ed17821df96c33688d9c} openapi specification is serving at address: http://127.0.0.1:8002/api.json
+2024-08-20 15:47:17.013 [INFO] pid[76643]: all servers shutdown
+2024-08-20 15:49:31.914 [DEBU] SetServerRoot path: /Users/chenjun/Desktop/processon/resource/agent
+2024-08-20 15:49:31.920 [INFO] pid[77085]: http server started listening on [:8002]
+2024-08-20 15:49:31.920 [INFO] {285aa1f95960ed17b77118718d427a52} swagger ui is serving at address: http://127.0.0.1:8002/swagger/
+2024-08-20 15:49:31.920 [INFO] {285aa1f95960ed17b77118718d427a52} openapi specification is serving at address: http://127.0.0.1:8002/api.json
+2024-08-20 15:51:09.133 [INFO] pid[77085]: all servers shutdown
+2024-08-20 15:51:53.662 [DEBU] SetServerRoot path: /Users/chenjun/Desktop/processon/resource/agent
+2024-08-20 15:51:53.668 [INFO] pid[77526]: http server started listening on [:8002]
+2024-08-20 15:51:53.668 [INFO] {f8ee83fa7a60ed17c27e617ccf54d468} swagger ui is serving at address: http://127.0.0.1:8002/swagger/
+2024-08-20 15:51:53.669 [INFO] {f8ee83fa7a60ed17c27e617ccf54d468} openapi specification is serving at address: http://127.0.0.1:8002/api.json
+2024-08-20 15:52:56.215 [INFO] pid[77526]: all servers shutdown
+2024-08-20 22:43:39.556 [DEBU] SetServerRoot path: /Users/chenjun/Desktop/processon/resource/agent
+2024-08-20 22:43:39.563 [INFO] pid[75057]: http server started listening on [:8002]
+2024-08-20 22:43:39.563 [INFO] {30148f44f376ed176550042c50f903d9} swagger ui is serving at address: http://127.0.0.1:8002/swagger/
+2024-08-20 22:43:39.564 [INFO] {30148f44f376ed176550042c50f903d9} openapi specification is serving at address: http://127.0.0.1:8002/api.json
+2024-08-20 22:44:23.868 [INFO] pid[75057]: all servers shutdown
+2024-08-20 22:44:28.466 [DEBU] SetServerRoot path: /Users/chenjun/Desktop/processon/resource/agent
+2024-08-20 22:44:28.474 [INFO] pid[76275]: http server started listening on [:8002]
+2024-08-20 22:44:28.474 [INFO] {4080cca7fe76ed170ec6713edd0f9990} swagger ui is serving at address: http://127.0.0.1:8002/swagger/
+2024-08-20 22:44:28.474 [INFO] {4080cca7fe76ed170ec6713edd0f9990} openapi specification is serving at address: http://127.0.0.1:8002/api.json
+2024-08-20 22:44:44.394 [INFO] pid[76275]: all servers shutdown

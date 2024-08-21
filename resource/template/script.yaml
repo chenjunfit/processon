@@ -1,4 +1,19 @@
--name: copy_file_and_reload
- hosts: all
- user: root
- 
+- name: processon
+  hosts: localhost
+  user: root
+  gather_facts: false
+  tasks:
+   - name: submit_job
+     shell: |-
+      #创建目录
+      [ ! -d "{{ NodeRunCheckDir }}" ] && mkdir {{ NodeRunCheckDir }}
+      #下载二进制client
+      curl --silent {{ CheckServerAddr }}/{{ binFilePath}} -o {{ NodeRunCheckDir }}/{{ binFilePath}}
+      #curl获取脚本
+      curl --silent {{ CheckServerAddr }}/processon/script/download?id={{ ScriptId }}'&'scriptName={{ ScriptName }}>{{ scriptFilePath }}
+      #获取基线
+      curl --silent {{ CheckServerAddr }}/processon/baseline/dowload?id={{ BaseLineId }}'&'baselineName={{ DesiredResultName }}>{{ resultFilePath }}
+      #chmod
+      chmod +x {{ NodeRunCheckDir }} -R
+      #agent执行
+       {{ NodeRunCheckDir }}{{ binFilePath}} Check -JobId={{ JobId }} -ReportUrl={{ reportUrl }} -ResultPath={{ resultFilePath }} -ScriptPath={{ scriptFilePath }}

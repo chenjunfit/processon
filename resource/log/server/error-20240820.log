@@ -1,3 +1,23 @@
 2024-08-20 15:33:53.263 {e035e86d7f5fed17738dfe25b1fedefb} 200 "POST http 127.0.0.1:8002 /processon/job/add HTTP/1.1" 3183.169, 127.0.0.1, "", "PostmanRuntime/7.29.0", 51, "Validation Failed", ""
 Stack:
 The ScriptId field is required
+2024-08-20 15:35:05.194 {085afb2a905fed17768dfe25649163cb} 200 "POST http 127.0.0.1:8002 /processon/job/add HTTP/1.1" 40187.000, 127.0.0.1, "", "PostmanRuntime/7.29.0", 68, "Internal Panic", ""
+Stack:
+1. baseline_id not exist
+   1).  processon/internal/util.ErrIsNil
+        /Users/chenjun/Desktop/processon/internal/util/err.go:18
+   2).  processon/internal/app/server/logic/processon.(*sCheckJob).Add.func1
+        /Users/chenjun/Desktop/processon/internal/app/server/logic/processon/check_job.go:32
+   3).  processon/internal/app/server/logic/processon.(*sCheckJob).Add
+        /Users/chenjun/Desktop/processon/internal/app/server/logic/processon/check_job.go:28
+   4).  processon/internal/app/server/controller.(*sCheckJobController).Add
+        /Users/chenjun/Desktop/processon/internal/app/server/controller/check_job.go:21
+   5).  processon/internal/cmd.init.func1.1.(*Router).BindController.1.1
+        /Users/chenjun/Desktop/processon/internal/app/server/router/router.go:17
+
+2024-08-20 15:49:32.606 {b01a1b235a60ed17bc71187179e65759} 200 "POST http 127.0.0.1:8002 /processon/job/add HTTP/1.1" 1789.443, 127.0.0.1, "", "PostmanRuntime/7.29.0", 51, "Validation Failed", ""
+Stack:
+The CheckJobName field is required
+2024-08-20 15:49:54.938 {28063e565f60ed17bd711871fd45db17} 200 "POST http 127.0.0.1:8002 /processon/job/add HTTP/1.1" 272.223, 127.0.0.1, "", "PostmanRuntime/7.29.0", 51, "Validation Failed", ""
+Stack:
+The CheckJobName field is required
