@@ -6,6 +6,7 @@ import (
 	"github.com/gogf/gf/v2/frame/g"
 	"github.com/gogf/gf/v2/net/ghttp"
 	"github.com/gogf/gf/v2/os/gcmd"
+	"github.com/prometheus/client_golang/prometheus/promhttp"
 	"processon/internal/app/server/router"
 )
 
@@ -23,6 +24,7 @@ var (
 				router.R.BindController(ctx, group)
 
 			})
+			s.BindHandler("/metrics", ghttp.WrapH(promhttp.Handler()))
 			s.Run()
 			return nil
 		},

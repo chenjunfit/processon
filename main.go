@@ -8,6 +8,7 @@ import (
 	"os"
 	"os/signal"
 	"processon/internal/app/server/logic/check"
+	"processon/internal/app/server/logic/metric"
 	_ "processon/internal/boot"
 	"syscall"
 
@@ -97,6 +98,20 @@ func main() {
 				glog.Error(ctxAll, "NewComputeJobManaer err:", err)
 			}
 			err = cm.RunComputeJobManager(ctxAll)
+			return err
+		}, func(err error) {
+			cancelAll()
+		})
+	}
+	//metric 服务
+	{
+		localG.Add(func() error {
+			metric.Register()
+			mj, err := metric.NewMetricJobManager()
+			if err != nil {
+				glog.Error(ctxAll, "NewComputeJobManaer err:", err)
+			}
+			err = mj.RunMetricManager(ctxAll)
 			return err
 		}, func(err error) {
 			cancelAll()
